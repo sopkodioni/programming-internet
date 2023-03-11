@@ -1,0 +1,165 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700,700italic);
+
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --white-cl: #fff;
+    --border-cl: #afadad;
+    --second-bg: #333;
+    --main-bg: #383377;
+}
+
+/* =========================== MAIN STYLES ===========================  */
+body{
+    background-color: #f5f5f5;
+    padding: 30px 10px;
+}
+
+.container, .title{
+    padding: 15px 10%;
+}
+
+.title{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-cl);
+    font-family: "Courier Prime", Courier, monospace;
+    font-size: 22px;
+}
+
+a{
+    color: inherit;
+}
+/* =========================== HEADER ===========================  */
+.header{
+    padding: 25px 0;
+    background-color: var(--main-bg);
+    color: var(--white-cl);
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* =========================== /HEADER ===========================  */
+
+
+/* =========================== REPO SECTION ===========================  */
+.repo__title{
+    padding-top: 0;
+}
+
+.repo__content > span{
+    font-weight: 700;
+}
+/* =========================== /REPO SECTION ===========================  */
+
+
+/* =========================== VSC SECTION ===========================  */
+.vscode__img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.vscode p:not(:last-child){
+    margin-bottom: 15px;
+}
+
+/* =========================== /VSC SECTION ===========================  */
+
+
+/* =========================== CONTRIBUTING SECTION ===========================  */
+.contributing-wrap:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.contributing ul,
+.contributing ol{
+    margin-left: 50px;
+}
+.contributing p{
+    padding-bottom: 10px;
+}
+/* =========================== /CONTRIBUTING SECTION ===========================  */
+
+
+/* =========================== DEVELOPMENT SECTION ===========================  */
+.development .container{
+    padding: 0px 10%;
+    padding-bottom: 35px;
+}
+
+.development__text{
+    padding: 15px 0px;
+}
+.development__text:last-child span{
+    font-weight: bold;
+}
+
+.development__list{
+    margin-left: 50px;
+}
+
+.development__item span{
+    font-weight: 700;
+    font-style: italic;
+}
+/* =========================== /DEVELOPMENT SECTION ===========================  */
+
+
+/* =========================== BUNNER ===========================  */
+
+.bunner{
+    background-color: var(--second-bg);
+    color: var(--white-cl);
+    text-align: center;
+    font-family: "Courier Prime", Courier, monospace;
+    font-size: 18px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--border-cl);
+    margin: 20px 0;
+}
+
+/* =========================== /BUNNER ===========================  */
+
+
+/* =========================== FOOTER ===========================  */
+.footer__container{
+    margin-top: 20px;
+    background-color: var(--second-bg);
+    color: var(--white-cl);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons__list{
+    display: flex;
+    list-style-type: none;
+}
+.footer-icons__item{
+    background-color: var(--main-bg);
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 25px;
+}
+.footer-icons__item:not(:last-child){
+    margin-right: 40px;
+}
+/* =========================== /FOOTER ===========================  */
